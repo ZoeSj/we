@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/logback3"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="姓名"
+        android:textSize="12sp"/>
+        <EditText 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:inputType="text"
+           android:hint="请输入姓名" />
+     <TextView
+        android:id="@+id/pwd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="密码"
+        android:textSize="12sp"/>
+        <EditText 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:inputType="textPassword"
+           android:hint="请输入密码" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="电话号码"
+            android:textSize="12sp" />
+
+      <EditText
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="请输入电话号码"
+          android:inputType="text" >
+
+          <requestFocus />
+      </EditText>
+
+      <TextView
+          android:id="@+id/school"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="学校"
+          android:textSize="12sp" />
+         
+         <Spinner 
+        
+        android:entries="@array/ctype"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/spinner1"
+        />
+   <TableRow android:id="@+id/tableRow1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center|bottom"
+          >  
+   </TableRow>
+
+      <TextView
+        android:id="@+id/yuanxi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="院系"
+        android:textSize="12sp"/>
+        <EditText 
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:inputType="text"
+           android:hint="请输入院系" />
+       <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别:"
+        android:height="50px" />
+    <RadioGroup 
+        android:id="@+id/radioGroup1"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:id="@+id/radio0"
+            android:text="男"
+            android:layout_width="wrap_content"
+            android:checked="true"
+            />
+        <RadioButton 
+            android:layout_height="wrap_content"
+            android:id="@+id/radio1"
+            android:text="女"
+            android:layout_width="wrap_content"
+            />
+    </RadioGroup>
+   <TableRow android:id="@+id/tableRow"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center">  
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保存"
+        android:onClick="save"
+        android:layout_gravity="center|left" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:onClick="resign"
+        android:text="重置" />
+    
+    
+
+</TableRow>
+</LinearLayout>

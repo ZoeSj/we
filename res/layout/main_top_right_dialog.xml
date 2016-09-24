@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"       
+   >
+   
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"  
+       android:layout_marginTop="46dp"
+       
+             >
+        
+    	<LinearLayout
+    	    android:id="@+id/main_dialog_layout"
+	      	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentRight="true"
+        	android:layout_alignParentTop="true"
+        	android:orientation="vertical"
+        	android:background="@drawable/title_function_bg" >
+
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView1"
+    			    android:layout_width="28dp"
+    			    android:layout_height="32dp"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/dy" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="电子通信工程"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView2"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/wy" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="外国语学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView3"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/xy" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="信息学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView4"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/sy" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="商学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView5"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/dm" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="动漫学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView6"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/gj" />
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="国际教育学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView7"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/jj" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="继续教育学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView8"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/tm" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="土木工程学院"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+    		<LinearLayout
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content" >
+
+    			<ImageView
+    			    android:id="@+id/imageView9"
+    			    android:layout_width="28dp"
+    			    android:layout_height="match_parent"
+    			    android:layout_gravity="center_vertical"
+    			    android:layout_marginLeft="8dp"
+    			    android:src="@drawable/tsg" />
+
+    			<TextView
+    			    android:layout_width="wrap_content"
+    			    android:layout_height="wrap_content"
+    			    android:padding="8dp"
+    			    android:text="图书馆"
+    			    android:textColor="#fff"
+    			    android:textSize="18sp" />    		    
+    		</LinearLayout>
+
+        
+           
+       </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

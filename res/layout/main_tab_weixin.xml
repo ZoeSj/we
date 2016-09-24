@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/title_bar"
+        android:gravity="center_vertical" >
+
+        <Spinner
+            android:layout_marginLeft="70dp"
+            android:id="@+id/spinner"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:entries="@array/ctype" />
+
+        <ImageButton
+            android:id="@+id/right_btn"
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="#00000000"
+            android:onClick="btnmainright"
+            android:src="@drawable/title_btn_function" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_bar_bg"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/search_bar_edit_bg"
+            android:drawableLeft="@drawable/search_bar_icon_normal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="搜索"
+            android:singleLine="true"
+            android:textColor="#000" >
+        </EditText>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/imageView3" android:layout_alignTop="@+id/imageView2" android:src="@drawable/school"/>
+        <ImageView android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/imageView4" android:layout_below="@+id/imageView4" android:layout_marginTop="29dp" android:src="@drawable/school1"/>
+        <ImageView android:id="@+id/imageView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/imageView4" android:layout_alignParentLeft="true" android:src="@drawable/school3"/>
+        <ImageView android:id="@+id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentTop="true" android:layout_marginTop="25dp" android:src="@drawable/school2"/>
+        <ImageView android:id="@+id/imageView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/imageView6" android:layout_below="@+id/imageView6" android:layout_marginTop="14dp" android:src="@drawable/solar_system_007"/>
+        <ImageView android:id="@+id/imageView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/imageView9" android:layout_alignRight="@+id/imageView1" android:layout_marginRight="16dp" android:src="@drawable/solar_system_010"/>
+        <ImageView android:id="@+id/imageView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/imageView3" android:layout_centerHorizontal="true" android:src="@drawable/solar_system_001"/>
+        <ImageView android:id="@+id/imageView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/imageView5" android:layout_below="@+id/imageView5" android:src="@drawable/solar_system_011"/>
+        <ImageView android:id="@+id/imageView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/imageView11" android:layout_below="@+id/imageView11" android:src="@drawable/solar_system_006"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8"
+            android:layout_below="@+id/imageView8"
+            android:layout_marginTop="22dp"
+            android:src="@drawable/solar_system_004" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imageView9"
+            android:layout_marginLeft="27dp"
+            android:layout_toRightOf="@+id/imageView6"
+            android:src="@drawable/solar_system_012" />
+
+    </RelativeLayout>
+
+</LinearLayout>

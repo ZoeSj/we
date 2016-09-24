@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/logback3"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:src="@drawable/dy033" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:src="@drawable/dy022" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:background="#00000000"
+        android:src="@drawable/dy011" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_alignTop="@+id/imageButton2"
+        android:src="@drawable/borr" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton1"
+        android:layout_below="@+id/textView1"
+        android:background="#00000000"
+        android:src="@drawable/katuberling" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageButton4"
+        android:layout_marginTop="22dp"
+        android:text="想知道学校最近又发生什么了么？快点我来看看吧！说不定有你感兴趣的话题哟"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#00000000"
+        android:src="@drawable/package_network" />
+
+</RelativeLayout>

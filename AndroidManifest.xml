@@ -1,0 +1,168 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.buaa.myweixin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Appstart"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Anim_style2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Chi"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ItemImg"
+            android:theme="@style/Anim_style2" >
+        </activity>
+        <activity
+            android:name=".com.mingrisoft.MainActivity"
+            android:theme="@style/Anim_style2" >
+        </activity>
+        <activity
+            android:name=".JoyImageViewActivity"
+            android:theme="@style/Anim_style2" >
+        </activity>
+        <activity android:name=".ImageListView" >
+        </activity>
+        <activity android:name=".ImageGridView" >
+        </activity>
+        <activity android:name=".ImageViewMain" >
+        </activity>
+        <activity android:name=".ImageGalleryView" >
+        </activity>
+
+        <receiver android:name="USBDisconnectReceiver" >
+            <intent-filter>
+
+                <!-- <action android:name="android.intent.action.UMS_DISCONNECTED"/> -->
+            </intent-filter>
+        </receiver>
+
+        <service android:name="SaveingImageService" >
+            <intent-filter>
+                <action android:name="com.worldchip.apk.SavingImage" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".WhatsnewDoor"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name=".Sheet"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name=".MainWeixin"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name=".Login"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".Welcome"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name=".Whatsnew"
+            android:theme="@style/Anim_style2" />
+        <activity
+            android:name=".ChatActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".ShakeActivity"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".InfoXiaohei"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="Exit"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="ExitFromSettings"
+            android:theme="@style/MyDialogStyleBottom" />
+        <activity
+            android:name="InfoXiaoheiHead"
+            android:theme="@style/HeadScale" />
+        <activity
+            android:name="LoadingActivity"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="MainTopRightDialog"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="ViewPicturesActivity"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="CopyOfViewPicturesActivity"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="MessActivity"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="Tab01Activity"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name=".News"
+            android:theme="@style/MyDialogStyleTop" />
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".BiBei" >
+        </activity>
+        <activity android:name=".YiYao" >
+        </activity>
+        <activity android:name=".Trip" >
+        </activity>
+        <activity android:name=".XiaoDianQi" >
+        </activity>
+        <activity android:name=".Tools" >
+        </activity>
+        <activity android:name=".Military" >
+        </activity>
+        <activity android:name=".DailyUse" >
+        </activity>
+        <activity android:name=".ZhuSu" >
+        </activity>
+        <activity android:name=".Dietary" >
+        </activity>
+        <activity android:name=".Clothes" >
+        </activity>
+        <activity android:name=".Stationery" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+</manifest>
